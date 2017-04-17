@@ -9,7 +9,6 @@ from keras.optimizers import RMSprop
 from keras.utils.data_utils import get_file
 
 
-
 class charRNN():
 
     def __init__(self, sample_length, vocabulary_size, hidden_states=128, learning_rate=0.01):
